@@ -1,0 +1,3 @@
+gcc -Wall -Werror -pthread arp.c cli.c dst.c icmpv4.c inet.c ipc.c ip_input.c ip_output.c main.c netdev.c route.c skbuff.c sock.c socket.c tcp.c tcp_data.c tcp_input.c tcp_output.c timer.c tuntap_if.c utils.c -o stack
+
+clang -Wall -pthread arp.c cli.c dst.c icmpv4.c inet.c ipc.c ip_input.c ip_output.c main.c netdev.c route.c skbuff.c sock.c socket.c tcp.c tcp_data.c tcp_input.c tcp_output.c timer.c tuntap_if.c utils.c -o stack 
